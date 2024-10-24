@@ -1,8 +1,50 @@
 /* Styles for Mobile Site */
+body {
+    background-color: rgb(18, 17, 17);
+    color: white;
+}
+
+#Main-title {
+text-align: center;
+text-align: center;
+background-color: hwb(0 0% 100%);
+color: white;
+padding:  20px;
+border: 20px double #830202;
+border-radius: 300px;
+font-family:Frijole;
+}
+
+h2 {
+    font-family: Frijole;
+}
+
+
 
 /* Header & Hero */
+#hero {
+    text-align: center;
+    padding-left:20%;
+    padding-right:20%;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    border: 10px  double hsl(0, 0%, 100%);
+    border-radius: 550px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-image: url(/img/dragon\ background.webp);
+}
+
+#hero img {
+    max-width: 100%;
+}
+
+#skull {
+    font-family:fantasy;
+}
 
 /* Projects */
+
 
 /* Reviews */
 
