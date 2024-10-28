@@ -19,20 +19,33 @@ h2 {
     font-family: Frijole;
 }
 
+#des{
+    color: red;
+text-align: right;
+flex-direction: column;
+
+}
+
+
 
 
 /* Header & Hero */
 #hero {
-    text-align: center;
-    padding-left:20%;
-    padding-right:20%;
+    
+   margin-left: auto ;
+   margin-right: auto;
     background-color: rgb(27, 27, 27);
     color: white;
-    border: 10px  double hsl(0, 0%, 100%);
-    border-radius: 550px;
-    border-top-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border: 15px  double hsl(0, 0%, 100%);
+    border-radius: 750px;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
     background-image: url(/img/dragon\ background.webp);
+    width: 450px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 #hero img {
@@ -41,6 +54,8 @@ h2 {
 
 #skull {
     font-family:fantasy;
+
+    
 }
 
 /* Projects */
