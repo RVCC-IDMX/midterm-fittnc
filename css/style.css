@@ -2,6 +2,7 @@
 body {
     background-color: rgb(18, 17, 17);
     color: white;
+    background-image:url(/img/background/simple.jpg)
 }
 
 #Main-title {
@@ -13,6 +14,7 @@ padding:  20px;
 border: 20px double #830202;
 border-radius: 300px;
 font-family:Frijole;
+
 }
 
 h2 {
@@ -40,12 +42,14 @@ flex-direction: column;
     border-radius: 750px;
     border-top-left-radius: 2px;
     border-bottom-right-radius: 2px;
-    background-image: url(/img/dragon\ background.webp);
+    background-image: url(/img/background/dragon\ background.webp);
     width: 450px;
     padding-left: 15%;
     padding-right: 15%;
     padding-top: 10%;
     padding-bottom: 10%;
+    max-width: 100%;
+    height: auto;
 }
 
 #hero img {
@@ -54,24 +58,73 @@ flex-direction: column;
 
 #skull {
     font-family:fantasy;
-
-    
 }
 
 /* Projects */
+#spice {
+   border: solid #ffffff 3px;
+   padding-left: auto;
+   padding-right: auto;
+   margin-top:5%;
+   background-image: url(/img/background/white\ background.jpg);
+   color: black;
+
+   text-align: center;
+}
+
+
+
+#spice img {
+border: #b60000 dashed 3px;
+border-radius: 20px;
+
+}
+
+.DA {
+    
+    max-width: 100%;
+    height: auto;
+}
+.LOGO {
+    max-width: 100%;
+    height: auto;
+}
+#des {
+    max-width: auto;
+    height: auto;
+}
+
+
+
+
 
 
 /* Reviews */
-
+    #reviews {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 /* Footer */
 
 
 /* Media state for Desktop site */
 @media (min-width: 1000px) {
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+figcaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
 
     /* Header & Hero */
 
     /* Projects */
+
 
     /* Reviews */
 
